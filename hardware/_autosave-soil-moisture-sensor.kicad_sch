@@ -1883,7 +1883,7 @@
     (property "Reference" "R1" (id 0) (at 39.37 165.1 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10K" (id 1) (at 39.37 167.64 90)
+    (property "Value" "" (id 1) (at 39.37 167.64 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 41.91 168.402 90)
