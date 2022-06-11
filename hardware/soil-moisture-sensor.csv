@@ -1,80 +1,43 @@
-"Source:","C:\Users\ShaneOrmonde\Documents\GitHub\esp32-soil-moisture-sensor\hardware\soil-moisture-sensor.kicad_sch"
-"Date:","07/06/2022 15:40:16"
-"Tool:","Eeschema (6.0.4)"
-"Generator:","C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py"
-"Component Count:","39"
-
-"Individual Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Config","LCSC"
-"","","BT1","Battery_Cell","Device:Battery_Cell","MyFootprints:BatteryHolder_Keystone_597_591_2AAA_3V","https://www.keyelco.com/userAssets/file/M65p11.pdf","",""
-"","","C1","0.1uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"","","C2","1uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","+rotated","C28323"
-"","","C3","22uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"","","C4","0.1uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"","","C5","4.7uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"","","C6","22uF","Device:C","Capacitor_SMD:C_0805_2012Metric","~","",""
-"","","C7","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","",""
-"","","D1","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-323_HandSoldering","~","+rotated","C154819"
-"","","D2","ESD9B3.3ST5G","Diode:ESD9B3.3ST5G","Diode_SMD:D_SOD-923","https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF","",""
-"","","D3","ESD9B3.3ST5G","Diode:ESD9B3.3ST5G","Diode_SMD:D_SOD-923","https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF","",""
-"","","D4","D_Schottky","Device:D_Schottky","Diode_SMD:D_0603_1608Metric","~","",""
-"","","D5","ESD9B3.3ST5G","Diode:ESD9B3.3ST5G","Diode_SMD:D_SOD-923","https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF","",""
-"","","D6","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-323_HandSoldering","~","+rotated","C154819"
-"","","D7","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-323_HandSoldering","~","+rotated","C154819"
-"","","D8","RED_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"","","D9","TX_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"","","D10","RX_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"","","J1","USB_B_Micro","Connector:USB_B_Micro","Connector_USB:USB_Micro-B_Molex_47346-0001","~","",""
-"","","Q1","Q_NPN_BEC","Device:Q_NPN_BEC","Package_TO_SOT_SMD:SOT-23","~","",""
-"","","Q2","Q_NPN_BEC","Device:Q_NPN_BEC","Package_TO_SOT_SMD:SOT-23","~","",""
-"","","R1","10K","Device:R","Resistor_SMD:R_0612_1632Metric","~","+rotated","C17414"
-"","","R2","510K","Device:R","Resistor_SMD:R_0603_1608Metric","~","+rotated","C17733"
-"","","R3","10k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R4","10k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R5","2k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R6","22.1k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R7","47.5k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R8","2k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R9","10k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R10","10k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R11","2k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","R12","2k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"","","Sensor1","Conn_01x01","Connector_Generic:Conn_01x01","MyFootprints:Capacitive_Soil_Moisture_Sensor","~","",""
-"","","SW1","SW_Push","Switch:SW_Push","Button_Switch_SMD:SW_SPST_B3U-1000P","~","","C231329"
-"","","SW2","SW_Push","Switch:SW_Push","Button_Switch_SMD:SW_SPST_B3U-1000P","~","","C231329"
-"","","U1","AMS1117-3.3","Regulator_Linear:AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf","",""
-"","","U2","CP2102N-Axx-xQFN24","Interface_USB:CP2102N-Axx-xQFN24","Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf","",""
-"","","U3","ESP32-WROOM-32D","RF_Module:ESP32-WROOM-32D","RF_Module:ESP32-WROOM-32","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf","",""
-
-
-
-"Collated Components:"
-
-"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet","Config","LCSC"
-"1","1","BT1","Battery_Cell","Device:Battery_Cell","MyFootprints:BatteryHolder_Keystone_597_591_2AAA_3V","https://www.keyelco.com/userAssets/file/M65p11.pdf","",""
-"2","2","C1, C4","0.1uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"3","1","C2","1uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","+rotated","C28323"
-"4","1","C3","22uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"5","1","C5","4.7uF","Device:C","Capacitor_SMD:C_0201_0603Metric","~","",""
-"6","1","C6","22uF","Device:C","Capacitor_SMD:C_0805_2012Metric","~","",""
-"7","1","C7","0.1uF","Device:C","Capacitor_SMD:C_0603_1608Metric","~","",""
-"8","3","D1, D6, D7","D_Schottky","Device:D_Schottky","Diode_SMD:D_SOD-323_HandSoldering","~","+rotated","C154819"
-"9","3","D2, D3, D5","ESD9B3.3ST5G","Diode:ESD9B3.3ST5G","Diode_SMD:D_SOD-923","https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF","",""
-"10","1","D4","D_Schottky","Device:D_Schottky","Diode_SMD:D_0603_1608Metric","~","",""
-"11","1","D8","RED_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"12","1","D9","TX_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"13","1","D10","RX_LED","Device:LED","LED_SMD:LED_0603_1608Metric","~","",""
-"14","1","J1","USB_B_Micro","Connector:USB_B_Micro","Connector_USB:USB_Micro-B_Molex_47346-0001","~","",""
-"15","2","Q1, Q2","Q_NPN_BEC","Device:Q_NPN_BEC","Package_TO_SOT_SMD:SOT-23","~","",""
-"16","1","R1","10K","Device:R","Resistor_SMD:R_0612_1632Metric","~","+rotated","C17414"
-"17","1","R2","510K","Device:R","Resistor_SMD:R_0603_1608Metric","~","+rotated","C17733"
-"18","4","R3, R4, R9, R10","10k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"19","4","R5, R8, R11, R12","2k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"20","1","R6","22.1k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"21","1","R7","47.5k","Device:R","Resistor_SMD:R_0603_1608Metric","~","",""
-"22","1","Sensor1","Conn_01x01","Connector_Generic:Conn_01x01","MyFootprints:Capacitive_Soil_Moisture_Sensor","~","",""
-"23","2","SW1, SW2","SW_Push","Switch:SW_Push","Button_Switch_SMD:SW_SPST_B3U-1000P","~","","C231329"
-"24","1","U1","AMS1117-3.3","Regulator_Linear:AMS1117-3.3","Package_TO_SOT_SMD:SOT-223-3_TabPin2","http://www.advanced-monolithic.com/pdf/ds1117.pdf","",""
-"25","1","U2","CP2102N-Axx-xQFN24","Interface_USB:CP2102N-Axx-xQFN24","Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm","https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf","",""
-"26","1","U3","ESP32-WROOM-32D","RF_Module:ESP32-WROOM-32D","RF_Module:ESP32-WROOM-32","https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf","",""
+Source:,C:\Users\ShaneOrmonde\Documents\GitHub\esp32-soil-moisture-sensor\hardware\soil-moisture-sensor.kicad_sch,,,,,,,
+Date:,11/06/2022 14:28,,,,,,,
+Tool:,Eeschema (6.0.4),,,,,,,
+Generator:,C:\Program Files\KiCad\6.0\bin\scripting\plugins/bom_csv_grouped_by_value.py,,,,,,,
+Component Count:,34,,,,,,,
+,,,,,,,,
+Individual Components:,,,,,,,,
+,,,,,,,,
+Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Config,LCSC
+,,BT1,Battery_Cell,Device:Battery_Cell,kicad_footprints:CR123A Battery Holder,https://www.keyelco.com/userAssets/file/M65p11.pdf,,
+,,C1,0.1uF,Device:C,Capacitor_SMD:C_0201_0603Metric,~,,
+,,C2,1uF,Device:C,Capacitor_SMD:C_0201_0603Metric,~,#NAME?,C28323
+,,C4,0.1uF,Device:C,Capacitor_SMD:C_0201_0603Metric,~,,
+,,C5,4.7uF,Device:C,Capacitor_SMD:C_0201_0603Metric,~,,
+,,C6,22uF,Device:C,Capacitor_SMD:C_0805_2012Metric,~,,
+,,C7,0.1uF,Device:C,Capacitor_SMD:C_0603_1608Metric,~,,
+,,D2,ESD9B3.3ST5G,Diode:ESD9B3.3ST5G,Diode_SMD:D_SOD-923,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,, C96512
+,,D3,ESD9B3.3ST5G,Diode:ESD9B3.3ST5G,Diode_SMD:D_SOD-923,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,, C96512
+,,D5,ESD9B3.3ST5G,Diode:ESD9B3.3ST5G,Diode_SMD:D_SOD-923,https://www.onsemi.com/pub/Collateral/ESD9B-D.PDF,, C96512
+,,D6,D_Schottky,Device:D_Schottky,Diode_SMD:D_SOD-323_HandSoldering,~,#NAME?,C154819
+,,D8,RED_LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,
+,,D9,TX_LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,
+,,D10,RX_LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,
+,,J1,USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Molex_47346-0001,~,,
+,,Q1,Q_NPN_BEC,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,~,,C164886
+,,Q2,Q_NPN_BEC,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,~,,C164886
+,,R1,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17414
+,,R2,510K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17733
+,,R3,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R4,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R5,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R6,22.1k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R7,47.5k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R8,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R9,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R10,10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R11,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,R12,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+,,Sensor1,Conn_01x01,Connector_Generic:Conn_01x01,MyFootprints:Capacitive_Soil_Moisture_Sensor,~,,
+,,SW1,SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_B3U-1000P,~,,C231329
+,,SW2,SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_B3U-1000P,~,,C231329
+,,U2,CP2102N-Axx-xQFN24,Interface_USB:CP2102N-Axx-xQFN24,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,C969151
+,,U3,ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf,,C473012
