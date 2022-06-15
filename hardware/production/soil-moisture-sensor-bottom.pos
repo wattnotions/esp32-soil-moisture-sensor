@@ -1,8 +1,0 @@
-### Module positions - created on Sat Jun 11 14:28:51 2022 ###
-### Printed by Pcbnew version (6.0.4)
-## Unit = mm, Angle = deg.
-## Side : bottom
-# Ref     Val           Package                               PosX       PosY       Rot  Side
-BT1       Battery_Cell  CR123A_Battery_Holder            -119.3875  -114.1000    0.0000  bottom
-Sensor1   Conn_01x01    Capacitive_Soil_Moisture_Sensor  -199.4750  -114.2000    0.0000  bottom
-## End
