@@ -4,7 +4,7 @@
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_nets": [],
-    "high_contrast_mode": 1,
+    "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
       "pads": 1.0,
@@ -32,8 +32,7 @@
       2,
       3,
       4,
-      6,
-      7,
+      5,
       8,
       9,
       10,
@@ -43,6 +42,8 @@
       14,
       15,
       16,
+      17,
+      18,
       19,
       20,
       21,
@@ -61,11 +62,11 @@
       35,
       36
     ],
-    "visible_layers": "00fff74_80000007",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "soil-moisture-sensor.kicad_prl",
+    "filename": "_autosave-soil-moisture-sensor.kicad_prl",
     "version": 3
   },
   "project": {
