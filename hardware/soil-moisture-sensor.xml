@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\ShaneOrmonde\Documents\GitHub\esp32-soil-moisture-sensor\hardware\soil-moisture-sensor.kicad_sch</source>
-    <date>29/06/2022 14:24:17</date>
+    <date>30/06/2022 16:52:32</date>
     <tool>Eeschema (6.0.4)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -62,6 +62,19 @@
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-00005f25cca2</tstamps>
     </comp>
+    <comp ref="C3">
+      <value>4.7uF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C108342 </field>
+      </fields>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C108342 "/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>22cb4fa7-4138-4ab3-b7f8-2d25746dd0b8</tstamps>
+    </comp>
     <comp ref="C4">
       <value>0.1uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
@@ -78,20 +91,28 @@
     <comp ref="C5">
       <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C108342 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C108342 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>fbd8cd23-5be8-4e30-9e82-fbba8ef09430</tstamps>
     </comp>
     <comp ref="C6">
-      <value>22uF</value>
+      <value>4.7uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C108342 </field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="LCSC" value="C108342 "/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>dd61e408-7346-40a4-9cb9-99cd36090419</tstamps>
+      <tstamps>9247e970-aeec-403c-b2fb-5f551d7f1986</tstamps>
     </comp>
     <comp ref="C7">
       <value>0.1uF</value>
@@ -124,7 +145,11 @@
     <comp ref="D8">
       <value>RED_LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C118339</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C118339"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -133,7 +158,11 @@
     <comp ref="D9">
       <value>TX_LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C118339</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C118339"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -142,7 +171,11 @@
     <comp ref="D10">
       <value>RX_LED</value>
       <footprint>LED_SMD:LED_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C118339</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="LCSC" value="C118339"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -151,7 +184,11 @@
     <comp ref="J1">
       <value>USB_B_Micro</value>
       <footprint>Connector_USB:USB_Micro-B_Molex_47346-0001</footprint>
+      <fields>
+        <field name="LCSC">C132560</field>
+      </fields>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
+      <property name="LCSC" value="C132560"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -232,7 +269,7 @@
       <tstamps>2296d517-151a-4e0a-a431-ff846863076b</tstamps>
     </comp>
     <comp ref="R5">
-      <value>2k</value>
+      <value>220R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
@@ -286,18 +323,26 @@
       <tstamps>280920ea-b84d-47b5-82b4-1ca6d37305b3</tstamps>
     </comp>
     <comp ref="R11">
-      <value>2k</value>
+      <value>220R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365121</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365121"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>b0093e57-f806-47cf-adf9-318d68556f03</tstamps>
     </comp>
     <comp ref="R12">
-      <value>2k</value>
+      <value>220R</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <fields>
+        <field name="LCSC">C365121</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="LCSC" value="C365121"/>
       <property name="Sheetname" value=""/>
       <property name="Sheetfile" value="soil-moisture-sensor.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
@@ -637,6 +682,7 @@
     </net>
     <net code="2" name="+BATT">
       <node ref="BT1" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="R5" pin="1" pintype="passive"/>
@@ -702,6 +748,7 @@
       <node ref="BT1" pin="2" pinfunction="-" pintype="passive"/>
       <node ref="C1" pin="1" pintype="passive"/>
       <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
       <node ref="C4" pin="1" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
