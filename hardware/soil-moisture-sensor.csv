@@ -8,15 +8,16 @@ Item,Qty,Reference(s),Value,LibPart,Footprint,Datasheet,Config,LCSC
 7,1,D9,TX_LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,C118339
 8,1,D10,RX_LED,Device:LED,LED_SMD:LED_0603_1608Metric,~,,C118339
 9,1,J1,USB_B_Micro,Connector:USB_B_Micro,Connector_USB:USB_Micro-B_Molex_47346-0001,~,,C132560
-10,2,"Q1, Q2",Q_NPN_BEC,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,~,,C164886
-11,1,R1,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17414
-12,1,R2,510K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17733
-13,4,"R3, R4, R9, R10",10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C17414
-14,3,"R5, R11, R12",220R,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C365121
-15,1,R6,22.1k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C269476
-16,1,R7,47.5k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C325696
-17,1,R8,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C269421
-18,1,Sensor1,Conn_01x01,Connector_Generic:Conn_01x01,MyFootprints:Capacitive_Soil_Moisture_Sensor,~,,
-19,2,"SW1, SW2",SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_B3U-1000P,~,,C231329
-20,1,U2,CP2102N-Axx-xQFN24,Interface_USB:CP2102N-Axx-xQFN24,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,C969151
-21,1,U3,ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf,,C473012
+10,1,J2,Conn_01x04_Male,Connector:Conn_01x04_Male,Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical,~,,
+11,2,"Q1, Q2",Q_NPN_BEC,Device:Q_NPN_BEC,Package_TO_SOT_SMD:SOT-23,~,,C164886
+12,1,R1,10K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17414
+13,1,R2,510K,Device:R,Resistor_SMD:R_0603_1608Metric,~,#NAME?,C17733
+14,6,"R3, R4, R9, R10, R13, R14",10k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+15,3,"R5, R11, R12",220R,Device:R,Resistor_SMD:R_0603_1608Metric,~,,C365121
+16,1,R6,22.1k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+17,1,R7,47.5k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+18,1,R8,2k,Device:R,Resistor_SMD:R_0603_1608Metric,~,,
+19,1,Sensor1,Conn_01x01,Connector_Generic:Conn_01x01,MyFootprints:Capacitive_Soil_Moisture_Sensor,~,,
+20,2,"SW1, SW2",SW_Push,Switch:SW_Push,Button_Switch_SMD:SW_SPST_B3U-1000P,~,,C231329
+21,1,U2,CP2102N-Axx-xQFN24,Interface_USB:CP2102N-Axx-xQFN24,Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.6x2.6mm,https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf,,C969151
+22,1,U3,ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32D,RF_Module:ESP32-WROOM-32,https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32d_esp32-wroom-32u_datasheet_en.pdf,,C473012
