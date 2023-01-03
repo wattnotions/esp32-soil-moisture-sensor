@@ -1964,7 +1964,7 @@
   (symbol (lib_id "Device:R") (at 257.81 67.31 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 079a791d-4be3-4f64-b2b4-2689af465fb0)
-    (property "Reference" "R?" (id 0) (at 260.35 66.0399 0)
+    (property "Reference" "R13" (id 0) (at 260.35 66.0399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 260.35 68.5799 0)
@@ -2405,7 +2405,7 @@
   (symbol (lib_id "Device:R") (at 257.81 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 7dc2e59d-84c1-4673-a0c3-d287d43e80c1)
-    (property "Reference" "R?" (id 0) (at 260.35 77.4699 0)
+    (property "Reference" "R14" (id 0) (at 260.35 77.4699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (id 1) (at 260.35 80.0099 0)
@@ -2558,7 +2558,7 @@
   (symbol (lib_id "power:+BATT") (at 257.81 52.07 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid c7da5eb9-5af5-46c6-b3c8-fa78695b7af1)
-    (property "Reference" "#PWR?" (id 0) (at 257.81 55.88 0)
+    (property "Reference" "#PWR0114" (id 0) (at 257.81 55.88 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "+BATT" (id 1) (at 257.81 46.99 0))
@@ -2574,7 +2574,7 @@
   (symbol (lib_id "power:GND") (at 257.81 86.36 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid cb503375-0430-4c02-aa2a-a7a0c1a54529)
-    (property "Reference" "#PWR?" (id 0) (at 257.81 92.71 0)
+    (property "Reference" "#PWR0119" (id 0) (at 257.81 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 257.937 89.6112 90)
@@ -2920,6 +2920,9 @@
     (path "/f0541591-b717-4bbe-a4d4-c359259e2002"
       (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
+    (path "/c7da5eb9-5af5-46c6-b3c8-fa78695b7af1"
+      (reference "#PWR0114") (unit 1) (value "+BATT") (footprint "")
+    )
     (path "/f4de557e-7c2f-42b4-8102-bb312c24def0"
       (reference "#PWR0115") (unit 1) (value "+BATT") (footprint "")
     )
@@ -2932,14 +2935,11 @@
     (path "/dbedcbef-29e2-4237-ae7b-0011e28fb138"
       (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
     )
+    (path "/cb503375-0430-4c02-aa2a-a7a0c1a54529"
+      (reference "#PWR0119") (unit 1) (value "GND") (footprint "")
+    )
     (path "/fbc97f02-2202-4d88-8192-ed177178faec"
       (reference "#PWR0120") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/c7da5eb9-5af5-46c6-b3c8-fa78695b7af1"
-      (reference "#PWR?") (unit 1) (value "+BATT") (footprint "")
-    )
-    (path "/cb503375-0430-4c02-aa2a-a7a0c1a54529"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
     (path "/00000000-0000-0000-0000-00005f29204b"
       (reference "BT1") (unit 1) (value "Battery_Cell") (footprint "kicad_footprints:CR123A Battery Holder")
@@ -3023,10 +3023,10 @@
       (reference "R12") (unit 1) (value "220R") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/079a791d-4be3-4f64-b2b4-2689af465fb0"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R13") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/7dc2e59d-84c1-4673-a0c3-d287d43e80c1"
-      (reference "R?") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "R14") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3f15063e-257b-49ff-a175-b33019d70662"
       (reference "SW1") (unit 1) (value "SW_Push") (footprint "Button_Switch_SMD:SW_SPST_B3U-1000P")
